@@ -1,0 +1,30 @@
+.app__header {
+    background-color: var(--color-black);
+}
+
+.headtext__cormorant-header {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-size: 90px;
+    line-height: 118px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+}
+
+.app__header_img img{
+    width: 75%;
+}
+
+@media screen and (max-width: 900px) {
+    .headtext__cormorant-header {
+        font-size: 90px;
+        line-height: 7.4rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .headtext__cormorant-header {
+        font-size: 50px;
+        line-height: 70px;
+      }
+}
