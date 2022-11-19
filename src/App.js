@@ -7,11 +7,13 @@ import './App.css';
 
 const App = () => (
   <React.Fragment>
+  <p>the deploy is here</p>
+  {/*
     <Navbar />
     <Header />
     <AboutUs />
     <SpecialMenu />
-    {/* <Chef />
+    <Chef />
     <Intro />
     <Laurels />
     <Gallery />
