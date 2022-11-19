@@ -7,8 +7,6 @@ import './App.css';
 
 const App = () => (
   <React.Fragment>
-  <p>the deploy is here</p>
-  {/*
     <Navbar />
     <Header />
     <AboutUs />
@@ -18,7 +16,7 @@ const App = () => (
     <Laurels />
     <Gallery />
     <FindUs />
-    <Footer /> */}
+    <Footer />
   </React.Fragment>
 );
  
